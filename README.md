@@ -93,7 +93,7 @@ All responses are JSON. Authenticated routes take `Authorization: Bearer <token>
    Mapbox, or OSRM for real distances.
 4. **Admin role**: there's no signup path for `role: 'admin'` — insert one
    directly via SQL for now (`sqlite3 data/loadmatch.db "UPDATE users SET
-   role='admin' WHERE email='you@example.com'"`) or add a proper admin
+   role='admin' WHERE email='dominioncovenantcompany@gmail.com'"`) or add a proper admin
    invite flow before launch.
 5. **Rate limiting / abuse protection** isn't implemented at the API layer
    (the frontend has its own honeypot/CAPTCHA on forms, but the backend
