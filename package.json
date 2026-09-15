@@ -1,0 +1,15 @@
+{
+  "name": "loadmatch-backend",
+  "version": "0.1.0",
+  "description": "LoadMatch MVP backend — trucks, loads, matching, contracts, escrow, proof of delivery. Zero npm dependencies (Node 22+ built-ins only: http, node:sqlite, crypto).",
+  "main": "server.js",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node seed.js"
+  },
+  "license": "UNLICENSED"
+}
